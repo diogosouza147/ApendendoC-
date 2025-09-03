@@ -4,29 +4,29 @@ using namespace std;
 
 int main(){
 
-    float num1;
-    float num2;
-    float num3;
-    float media;
+    double num1;
+    double num2;
+    double num3;
+    double media;
 
-    cout<<"Digite Primeira nota: "<<endl;
+    cout<<"Digite Primeira Prova: "<<endl;
     cin>>num1;
-    cout<<"Digite a segunda nota: "<<endl;
+    cout<<"Digite a segunda Prova: "<<endl;
     cin>>num2;
-    cout<<"Digite a terceira nota: "<<endl;
+    cout<<"Digite a nota do trabalho: "<<endl;
     cin>>num3;
 
     media=(num1+num2+num3)/3;
 
-    if (media >=7.0f){
+    if (media >=70){
         cout<<"Aprovado"<<endl;
     }else{
-        if (media <5.0f){
+        if (media <50){
             cout<<"Reprovado"<<endl;
         } else {
 
-            if ((media >= 5.0f) && (media < 7.0f)) {
-                cout<<"Recuperacao"<<endl;
+            if ((media >= 50) && (media < 70)) {
+                cout<<"Exame Final!!!!"<<endl;
             }
         }
     }

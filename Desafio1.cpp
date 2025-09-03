@@ -3,14 +3,14 @@
 using namespace std;
 
 int main(){
-    double numeros[5];
+    double numeros[4];
     double soma = 0;
     double maior, menor;
 
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 4; i++)
     {
-    cout<<"digite os 5 numeros: "<< i + 1 << " :";
+    cout<<"digite os 4 numeros: "<< i + 1 << " :";
     cin>>numeros[i];
     soma += numeros[i];
 
@@ -30,7 +30,7 @@ int main(){
     }
 
 
-    double media = soma /5;
+    double media = soma /4;
 
     cout<<"Soma: "<<soma<<endl;
     cout<<"Media: "<<media<<endl;
