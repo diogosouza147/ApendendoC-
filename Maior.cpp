@@ -22,7 +22,7 @@ if((a>b) && (a>c)){
     }else
         maior=c;
 }
-cout<<"O maior Sera: "<<maior;
+cout<<"O maior Sera:w "<<maior;
 
 return 0;
 
